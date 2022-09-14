@@ -13,7 +13,7 @@ import java.net.URI;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/planet/v1")
+@RequestMapping("/api/planets/v1")
 @RequiredArgsConstructor
 public class PlanetController {
 
