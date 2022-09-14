@@ -47,11 +47,12 @@ public class PlanetServiceImpl implements PlanetService {
     }
 
     boolean isResponseEmpty = response.getResults() == null || response.getResults().isEmpty();
+
+    if (isResponseEmpty) throw new BadRequestException("planet must exist in Star Wars");
+
     String planetNameResponse = response.getResults().get(0).getName();
     boolean doesPlanetNameMatchPlanetNameResponse =
         planetNameResponse.equalsIgnoreCase(planetDto.getName());
-
-    if (isResponseEmpty) throw new BadRequestException("planet must exist in Star Wars");
 
     if (!doesPlanetNameMatchPlanetNameResponse)
       throw new BadRequestException("planet name does not exist in Star Wars");
