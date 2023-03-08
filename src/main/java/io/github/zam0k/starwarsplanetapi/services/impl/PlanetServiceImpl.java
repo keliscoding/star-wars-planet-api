@@ -1,11 +1,11 @@
 package io.github.zam0k.starwarsplanetapi.services.impl;
 
-import io.github.zam0k.starwarsplanetapi.controllers.dtos.CreatePlanetDTO;
-import io.github.zam0k.starwarsplanetapi.controllers.dtos.PlanetDTO;
-import io.github.zam0k.starwarsplanetapi.controllers.dtos.SwapiResponseDTO;
-import io.github.zam0k.starwarsplanetapi.controllers.exceptions.BadRequestException;
-import io.github.zam0k.starwarsplanetapi.controllers.exceptions.InternalServerException;
-import io.github.zam0k.starwarsplanetapi.controllers.exceptions.NotFoundException;
+import io.github.zam0k.starwarsplanetapi.dtos.CreatePlanetDTO;
+import io.github.zam0k.starwarsplanetapi.dtos.PlanetDTO;
+import io.github.zam0k.starwarsplanetapi.dtos.SwapiResponseDTO;
+import io.github.zam0k.starwarsplanetapi.exceptions.BadRequestException;
+import io.github.zam0k.starwarsplanetapi.exceptions.InternalServerException;
+import io.github.zam0k.starwarsplanetapi.exceptions.NotFoundException;
 import io.github.zam0k.starwarsplanetapi.models.Planet;
 import io.github.zam0k.starwarsplanetapi.repositories.PlanetRepository;
 import io.github.zam0k.starwarsplanetapi.services.PlanetService;

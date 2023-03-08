@@ -1,9 +1,9 @@
-package io.github.zam0k.starwarsplanetapi.controllers.exceptions.handler;
+package io.github.zam0k.starwarsplanetapi.exceptions.handler;
 
-import io.github.zam0k.starwarsplanetapi.controllers.exceptions.ApiError;
-import io.github.zam0k.starwarsplanetapi.controllers.exceptions.BadRequestException;
-import io.github.zam0k.starwarsplanetapi.controllers.exceptions.InternalServerException;
-import io.github.zam0k.starwarsplanetapi.controllers.exceptions.NotFoundException;
+import io.github.zam0k.starwarsplanetapi.exceptions.ApiError;
+import io.github.zam0k.starwarsplanetapi.exceptions.BadRequestException;
+import io.github.zam0k.starwarsplanetapi.exceptions.InternalServerException;
+import io.github.zam0k.starwarsplanetapi.exceptions.NotFoundException;
 import org.springframework.context.support.DefaultMessageSourceResolvable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;

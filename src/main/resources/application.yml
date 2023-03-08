@@ -1,11 +1,11 @@
 spring:
-  config:
-    import: ./application-secrets.yml
   application:
     name: swapi_planet_api
   datasource:
-    url: jdbc:postgresql://localhost:5432/swapi_planet_db
+    url: jdbc:postgresql://localhost:5432/swapi-planet
     driverClassName: org.postgresql.Driver
+    username: xxx
+    password: xxx
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQL94Dialect
     show-sql: false

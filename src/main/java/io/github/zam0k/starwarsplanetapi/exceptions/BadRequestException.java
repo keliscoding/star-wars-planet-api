@@ -1,4 +1,4 @@
-package io.github.zam0k.starwarsplanetapi.controllers.exceptions;
+package io.github.zam0k.starwarsplanetapi.exceptions;
 
 public class BadRequestException extends RuntimeException {
   public BadRequestException(String message) {

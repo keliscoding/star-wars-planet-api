@@ -1,6 +1,6 @@
 package io.github.zam0k.starwarsplanetapi.utils.mappers;
 
-import io.github.zam0k.starwarsplanetapi.controllers.dtos.CreatePlanetDTO;
+import io.github.zam0k.starwarsplanetapi.dtos.CreatePlanetDTO;
 import io.github.zam0k.starwarsplanetapi.models.Planet;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;

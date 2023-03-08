@@ -1,4 +1,4 @@
-package io.github.zam0k.starwarsplanetapi.controllers.dtos;
+package io.github.zam0k.starwarsplanetapi.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,7 +9,6 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class PlanetResponseDTO {
-    private String name;
-    private List<String> films;
+public class SwapiResponseDTO {
+    private List<PlanetResponseDTO> results;
 }

@@ -1,4 +1,4 @@
-package io.github.zam0k.starwarsplanetapi.controllers.exceptions;
+package io.github.zam0k.starwarsplanetapi.exceptions;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,7 +1,7 @@
 package io.github.zam0k.starwarsplanetapi.controllers;
 
-import io.github.zam0k.starwarsplanetapi.controllers.dtos.CreatePlanetDTO;
-import io.github.zam0k.starwarsplanetapi.controllers.dtos.PlanetDTO;
+import io.github.zam0k.starwarsplanetapi.dtos.CreatePlanetDTO;
+import io.github.zam0k.starwarsplanetapi.dtos.PlanetDTO;
 import io.github.zam0k.starwarsplanetapi.services.PlanetService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

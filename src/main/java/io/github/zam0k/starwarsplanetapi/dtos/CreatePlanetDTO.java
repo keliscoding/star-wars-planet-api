@@ -1,4 +1,4 @@
-package io.github.zam0k.starwarsplanetapi.controllers.dtos;
+package io.github.zam0k.starwarsplanetapi.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
